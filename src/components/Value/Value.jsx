@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Accordion,
   AccordionItem,
@@ -6,14 +6,14 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
   AccordionItemState,
-} from "react-accessible-accordion";
-import "react-accessible-accordion/dist/fancy-example.css";
+} from 'react-accessible-accordion';
+import 'react-accessible-accordion/dist/fancy-example.css';
 import {
   MdOutlineArrowDropDown,
   MdOutlineArrowDropDownCircle,
-} from "react-icons/md";
-import data from "../../utils/accordion.jsx";
-import "./Value.css";
+} from 'react-icons/md';
+import data from '../../utils/accordion.jsx';
+import './Value.css';
 // Demo styles, see 'Styles' section below for some notes on use.
 
 const Value = () => {
@@ -29,14 +29,14 @@ const Value = () => {
 
         {/* right */}
         <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
+          <span className="orangeText">Nuestros Valores</span>
 
-          <span className="primaryText">Value We Give to You</span>
+          <span className="primaryText">Ventajas que te damos</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
+            Siempre estamos listos para ayudar brindándote los mejores servicios.{' '}
             <br />
-            We beleive a good blace to live can make your life better
+            Creemos que un buen lugar para vivir puede mejorar tu vida.
           </span>
 
           <Accordion
@@ -47,23 +47,23 @@ const Value = () => {
             {data.map((item, i) => {
               const [className, setClassName] = useState(null);
               return (
-                <AccordionItem className={`accordionItem ${className}`} uuid={i} key={i}>
+                <AccordionItem
+                  className={`accordionItem ${className}`}
+                  uuid={i}
+                  key={i}
+                >
                   <AccordionItemHeading>
                     <AccordionItemButton className="flexCenter accordionButton ">
-                        {/* just for getting state of item */}
+                      {/* just for getting state of item */}
                       <AccordionItemState>
                         {({ expanded }) =>
                           expanded
-                            ? setClassName("expanded")
-                            : setClassName("collapsed")
+                            ? setClassName('expanded')
+                            : setClassName('collapsed')
                         }
                       </AccordionItemState>
                       <div className="flexCenter icon">{item.icon}</div>
-                      <span
-                        className="primaryText"
-                      >
-                        {item.heading}
-                      </span>
+                      <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
                         <MdOutlineArrowDropDown size={20} />
                       </div>

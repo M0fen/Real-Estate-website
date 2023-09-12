@@ -8,19 +8,18 @@ const Footer = () => {
         <div className="flexColStart f-left">
           <img src="./logo2.png" alt="" width={120} />
           <span className="secondaryText">
-            Our vision is to make all people <br />
-            the best place to live for them.
+            Pugbertoliebers
           </span>
         </div>
 
         <div className="flexColStart f-right">
-          <span className="primaryText">Information</span>
-          <span className="secondaryText">145 New York, FL 5467, USA</span>
+          <span className="primaryText">Información Adicional </span>
+          <span className="secondaryText">Mz D Casa 20 San Jacinto</span>
           <div className="flexCenter f-menu">
-            <span>Property</span>
-            <span>Services</span>
-            <span>Product</span>
-            <span>About Us</span>
+            <span>Propiedades</span>
+            <span>Servicios</span>
+            <span>Productos</span>
+            <span>Sobre nosotros</span>
           </div>
         </div>
       </div>

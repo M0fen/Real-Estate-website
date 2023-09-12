@@ -5,14 +5,14 @@ const GetStarted = () => {
     <div id="get-started" className="g-wrapper">
       <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
-          <span className="primaryText">Get started with Homyz</span>
+          <span className="primaryText">Encuentra fácilmente lo que buscas con Hábitat</span>
           <span className="secondaryText">
-            Subscribe and find super attractive price quotes from us.
+           Suscríbete y recibe atractivas ofertas de parte de nosotros.
             <br />
-            Find your residence soon
+            Encuentra tu propiedad ya!
           </span>
           <button className="button" href>
-            <a href="mailto:zainkeepscode@gmail.com">Get Started</a>
+            <a href="mailto:carloscaicedo188@gmail.com">Manos a la obra !</a>
           </button>
         </div>
       </div>

@@ -1,14 +1,14 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Casa campestre Cerritos",
+    "price": "200'000.000",
+    "detail": "Impresionante casa campestre ubicada en Cerritos",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Casa Finca Cerritos",
+    "price": "198'000.000",
+    "detail": "Hermosa casa finca ubicada en las afueras de Cerritos",
     "image": "./r2.png"
   },
   {
